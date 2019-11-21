@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "118746264815",
+    "firebase_url": "https://mobile-icp-5.firebaseio.com",
+    "project_id": "mobile-icp-5",
+    "storage_bucket": "mobile-icp-5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118746264815:android:3b39b5b25554b1b5f0d71a",
+        "android_client_info": {
+          "package_name": "com.vijaya.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118746264815-khsm2oop0ush4muibuo4f7490j2r75cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3qRQb-LqgVycrducEVYi-CUlzdeeboJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118746264815-khsm2oop0ush4muibuo4f7490j2r75cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
