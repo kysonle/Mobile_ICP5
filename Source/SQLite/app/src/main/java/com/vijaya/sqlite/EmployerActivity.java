@@ -99,8 +99,7 @@ public class EmployerActivity extends AppCompatActivity {
             return;
         }
 
-        String updateEmployer = SampleDBContract.Employer.COLUMN_NAME + "='" + companyname + "'";
-        database.update(SampleDBContract.Employer.TABLE_NAME,values ,updateEmployer,null);
+        database.update(SampleDBContract.Employer.TABLE_NAME,values ,SampleDBContract.Employer.COLUMN_NAME + "='" + companyname + "'",null);
         Toast.makeText(this, "Employer " + companyname + " " + "have been updated in the database system", Toast.LENGTH_LONG).show();
         finish();
 
